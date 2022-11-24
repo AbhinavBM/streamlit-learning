@@ -13,3 +13,8 @@ data={
 
 df = pd.DataFrame(data =data)
 st.sidebar.selectbox("Select  number ",[1,2,3,4,5])
+st.header('st.button')
+if st.button('Say hello'):
+     st.write('Why hello there')
+else:
+     st.write('Goodbye')
