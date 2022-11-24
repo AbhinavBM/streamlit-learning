@@ -1,6 +1,5 @@
 import pandas as pd
 import streamlit as st
-plt.style.use("ggplot")
 st.set_page_config(page_title="My Webpage",page_icon=":tada:",layout="wide")
 st.subheader("HI,I am Abhinav :wave:")
 st.title("A Data Analyst From Germany")
