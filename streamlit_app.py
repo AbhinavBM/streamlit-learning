@@ -1,4 +1,7 @@
+import pandas as pd
 import streamlit as st
+from matplotlib import pyplot as plt
+plt.style.use("ggplot")
 st.set_page_config(page_title="My Webpage",page_icon=":tada:",layout="wide")
 st.subheader("HI,I am Abhinav :wave:")
 st.title("A Data Analyst From Germany")
@@ -11,4 +14,4 @@ data={
 }
 
 df = pd.DataFrame(data =data)
-st.sidebar.seslctbox("Select  number ",[1,2,3,4,5])
+st.sidebar.selectbox("Select  number ",[1,2,3,4,5])
