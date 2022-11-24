@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 st.set_page_config(page_title="My Webpage",page_icon=":tada:",layout="wide")
 st.subheader("HI,I am Abhinav :wave:")
-st.title("A Data Analyst From Germany")
+st.title("rit student")
 data={
   "Home":[x for x in range(1,11)],
   "Proctorship":[x**2 for x in range(1,11)],
